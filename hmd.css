@@ -1,0 +1,130 @@
+element.style {
+}
+.our-publications-content .our-publications-main .standard-cards .our-publications .publications-name {
+    width: calc(100% - 86px);
+    display: -webkit-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    property: center;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -o-flex-direction: column;
+    property: column;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1b1919;
+    margin: 0;
+    text-align: left;
+    min-height: 54px;
+}
+.wysiwyg p:last-child {
+    margin-bottom: 0;
+}
+.our-publications-content p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: proxima-nova,sans-serif;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    margin: 0 15px 30px;
+}
+.wysiwyg p {
+    margin-right: 0!important;
+}
+p {
+    font-size: 16px;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.card-highlight {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: #fff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+.our-publications-content {
+    padding: 30px 15px 20px;
+    line-height: 1.33;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: proxima-nova,sans-serif;
+    color: #1b1919;
+    font-style: normal;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-overflow-style: scrollbar;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio:1.25), only screen and (-webkit-min-device-pixel-ratio: 2.08333333333333), only screen and (min-resolution: 200dpi), only screen and (min-resolution: 1.25dppx)
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    height: inherit;
+    min-height: 100%;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}

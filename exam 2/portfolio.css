@@ -1,0 +1,59 @@
+li{
+    overflow:hidden;
+    color:red;
+    float:right;
+    padding:25px;
+    font-size: 20px;
+    position: relative;
+  bottom:120px;
+}
+#b3
+{
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+#b2,#b1
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+}
+h3
+{
+  position: relative;
+  top: 15px;
+  left: 45px;
+}
+img{
+    position: relative;
+    bottom: 40px;
+}
+.div3
+{
+    background-color: rgb(127, 175, 159);
+    height: 600px;
+}
+a
+{
+    text-decoration: none;
+}
+.div6
+{
+    position: relative;
+    top: 50px;
+    left: 100px;
+} 
+.div4
+{
+    position: relative;
+    top: 7px;
+    left: 85px;
+}
+.div7
+{
+    position: relative;
+    bottom: 53px;
+    left: 250px;
+}

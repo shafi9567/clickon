@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clickon.css">
+    <link rel="shortcut icon" href="tt.JPG" type="image/x-icon">
+    <title>clickon.com</title>
+</head>
+<body>
+  <header>
+    <a href="#" class="brand">Clickon</a>
+    <div class="menu-btn"></div>
+    <div class="list">
+      <div class="list-items">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+      </div>
+       
+    </div>
+  </header>
+
+  <section class="home">
+    <video class="video-slide" src="4.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="5.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="3.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="2.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="7.mp4" autoplay muted loop></video>
+    <div class="content">
+      <h1>Just Click,<br><span>Explore......</span></h1>
+      <p>You can visit any corner of the world through this website.
+        <br> You can book tickets anytime through this website. All kinds<br>
+         of tickets like flight, train, bus, movies, cabs and so on any<br>
+         ticket can be booked online very easily by any common people.<br>
+        just click and explore the world......</p>
+      <a href="content.html">Click Here</a>
+    </div>
+    <div class="icon">
+      <a href="https://www.instagram.com/"target="_blank"><img src="in.png"></a>
+      <a href="https://www.youtube.com/"target="_blank"> <img src="ytb.png"></a>
+      <a href="https://www.facebook.com/"target="_blank"><img src="fa.png"></a>
+    </div>
+    <div class="slider-navigation">
+     <div class="nav-btn active"></div>
+     <div class="nav-btn"></div>
+     <div class="nav-btn"></div>
+     <div class="nav-btn"></div>
+     <div class="nav-btn"></div>
+
+    </div>
+  </section>
+  
+
+  <script type="text/javascript">
+   //javascript of responsive navigation menu
+   const menuBtn = document.querySelector(".menu-btn");
+   const list = document.querySelector(".list")
+   menuBtn.addEventListener("click",() => {
+     menuBtn.classList.toggle("active");
+     list.classList.toggle("active"); 
+   });
+   //javascript for video slidert navigation
+   const btns = document.querySelectorAll(".nav-btn");
+   const slides = document.querySelectorAll(".video-slide");
+
+   var sliderNav = function(manual)
+   {
+    btns.forEach((btn) => {
+      btn.classList.remove("active")
+    });
+
+    slides.forEach((slide) => {
+      slide.classList.remove("active")
+    });
+
+    btns[manual].classList.add("active")
+    slides[manual].classList.add("active");
+   }
+
+   btns.forEach((btn, i) => {
+    btn.addEventListener("click",() => {
+      sliderNav(i);
+    
+   });
+  });
+  </script>
+
+
+</body>
+</html>
