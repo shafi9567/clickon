@@ -12,6 +12,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    overflow: hidden;
 }
 header
 {
@@ -39,10 +40,33 @@ header .brand
     left:-100px;
     bottom: 130px;
 }
+.brand::before
+{
+    position: relative;
+    top: -13px;
+    border-radius: 2em;
+    align-items: center;
+    text-decoration: none;
+    content: ''; 
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    width: 0;
+    height: 2em;
+    bottom: 0;
+    left: 0;
+    
+}
+.brand:hover:before
+{
+    width: 100%;
+}
+
 header .content
 {
   position: relative;
-  bottom: 135px;
+  bottom: 130px;
+  left: 75px;
+  
 }
 header .content .content-list a 
 {
@@ -56,19 +80,22 @@ header .content .content-list a
 }
 header .content .content-list a::before
 {
+    border-radius: 50px;
+    position: relative;
+    top: -17px;
     text-decoration: none;
     content: ''; 
     position: absolute;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.2);
     width: 0;
-    height: 3px;
+    height: 50px;
     bottom: 0;
     left: 0;
-    transition: 0.3s ease; 
+    transition: 0.1s ease; 
 }
 header .content .content-list a:hover:before
 {
-    width: 100%;
+    width: 70px;
 }
 img
 {
@@ -80,8 +107,127 @@ button
     height: 30px;
     position: relative;
     left: 100px;
+    
 }
 label
 {
     color: #fff; 
+
+}
+label::before
+{
+    border-radius: 50px;
+
+    position: relative;
+    top: -7px;
+    text-decoration: none;
+    content: ''; 
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    width: 0;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    transition: 0.1s ease; 
+}
+label:hover:before
+{
+    width: 90px;
+}
+.content2
+{  
+    position:relative;
+    bottom: 247px;
+    border-radius: 60px;
+    height:70px;
+    align-items: center;
+    padding: 15px 10px;
+}
+.content2 a
+{
+    position: relative;
+    bottom: 7px;
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 40px;
+    transition: .3s ease;
+}
+.content2 a::before
+{
+    position: relative;
+    top: -17px;
+    text-decoration: none;
+    content: ''; 
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    width: 0;
+    height: 50px;
+    border-radius: 35px;
+    bottom: 0;
+    left: 0;
+    transition: 0.1s ease; 
+    
+}
+.content2 a:hover:before
+{
+    width: 90px;
+}
+.content2 img
+{
+    position: relative;
+    left: 30px;
+}
+.search-bar
+{
+    width:370px;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px;
+    position: relative;
+    left: 25px;
+}
+form
+{
+    position: relative;
+    bottom: 250px;
+}
+form img
+{
+    width: 40px;
+    position: relative;
+    top: 2px;
+}
+form button
+{
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+input
+{
+    border: 0;
+    height:50px;
+    width: 200px;
+    font-size: 1em;
+    border-radius: 50px;
+    background: rgba(253, 253, 253, 0.802);
+    padding: 10px;
+    z-index: 888;
+}
+
+#res
+{ 
+    position: relative;
+    right: 500px;
+    
+    
 }
